@@ -1,0 +1,216 @@
+#background{
+width:600px;
+height:550px;
+margin-left:27%;
+top: 0;
+background-repeat: no-repeat;
+text-align:center;
+margin-top:-70px;
+margin-bottom:20px;
+padding:0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: "350"
+    }
+    ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    }
+    ul {
+    list-style-type: none;
+    /*margin:0;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(15, 10, 88);
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(15, 10, 92);
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+    
+    li {
+    float: left;
+    }
+    
+    li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: #9900ff;
+    }
+    
+    li.dropdown {
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+.aboutmepic {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.intro {
+    text-align: center;
+    color: rgb(15, 10, 88);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+}
+.onepic{
+    padding: 48px;
+    
+}
+.thirdpic{
+    padding: 48px;
+}
+.welcome{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    margin: 24px;
+    color: rgb(15, 10, 88)
+}
+.quote{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(15, 10, 88)
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  padding-left: 80px;
+}
+
+.gallary {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(15, 10, 88);
+    font-size: 40px;
+}
+.picture { 
+    margin-left: 84px;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.picture1 {
+    margin-left: 154px;
+}
+.contact { 
+    margin: 27px;
+    margin-left: 340px;
+    padding-left: 54px;
+}
+.facebook {
+
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+.gmail {
+    margin-left: 540px;
+    width: 216px;
+    height: 190px;
+    display: block;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 510px;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .bg {
+      display: inline;
+      margin-left: 100px;
+      padding-top: 50px;
+  }
+  .findme{
+      text-align: center;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 54px;
+      color: rgb(15, 10, 92)
+  }
+
+
+    
+
+     
+
